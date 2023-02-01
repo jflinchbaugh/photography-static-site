@@ -1,8 +1,10 @@
 body {
   background-color: black;
+  color: white;
   padding-left: 5px;
   padding-right: 5px;
   font-family: 'Open Sans', sans-serif;
+  font-size: 16pt;
 }
 
 a {
@@ -42,7 +44,7 @@ a:hover {
   height: auto !important;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   #gallery {
     -moz-column-count:    2;
     -webkit-column-count: 2;
