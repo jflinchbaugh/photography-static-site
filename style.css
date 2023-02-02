@@ -8,7 +8,7 @@ body {
 }
 
 a {
-  color: white;
+  color: lightgrey;
   cursor: pointer;
   text-decoration: none;
 }
@@ -17,13 +17,16 @@ a:hover {
   text-decoration: underline;
 }
 
-#header img {
-  width: 50%;
+#logo {
+}
+
+#logo img {
+  width: 75%;
   margin-bottom: 5px;
 }
 
-#nav {
-  float: right;
+#nav a {
+  padding-right: 1ex;
 }
 
 #gallery {
@@ -51,7 +54,7 @@ a:hover {
     column-count:         2;
   }
 
-  #header img {
-    width: 75%;
+  #logo img {
+    width: 100%;
   }
 }
